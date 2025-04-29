@@ -1,0 +1,17 @@
+package main;
+
+public class Question2 {
+
+	public static void main(String[] args) {
+		
+		//print 1-10, skipping 4 and 7 using a for loop and continue function
+			for (int a = 1; a <= 10; a++) {
+				if(a==4|| a==7) {
+				continue;
+			}
+			System.out.println(a);	
+			}
+
+	}
+
+}
