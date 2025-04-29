@@ -1,0 +1,12 @@
+package main;
+
+public class Question1 {
+
+	public static void main (String[] args) {
+		
+		for (double a = 1; a <= 10; a++) {
+			System.out.println(a);
+		}
+		
+	}
+}
